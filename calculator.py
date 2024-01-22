@@ -13,6 +13,8 @@ def multiply(number1, number2):
 def divide(number1, number2):
     return number1 / number2
 
+
+print("Hello and welcome to my calculator!")
 number1 = float(input("Choose the 1st number: "))
 operation = int(input("1. +\n2. -\n3. /\n4. *\nChoose the number: "))
 number2 = float(input("Choose the 2nd number: "))
