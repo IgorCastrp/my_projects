@@ -1,3 +1,4 @@
+# Guess the Number Game
 import random
 
 total_guesses = 6
