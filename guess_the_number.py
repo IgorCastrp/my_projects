@@ -20,3 +20,4 @@ if total_guesses == 0:
     print('Your guesses run out, you lost')
 else:
     print('Bye bye')
+print('\n')
