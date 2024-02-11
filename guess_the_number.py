@@ -1,6 +1,6 @@
 import random
 
-total_guesses = 10
+total_guesses = 6
 secret_number = random.randint(1, 20)
 
 print('I\'m thinking in a number between 1 and 20 ("Type: use binary search))')
@@ -17,7 +17,7 @@ while total_guesses != 0:
     total_guesses -= 1
     print('Total guesses left: ', total_guesses)
 if total_guesses == 0:
-    print('Your guesses run out, you lost')
+    print(f'Your guesses run out, you lost, my thinking number was: {secret_number}')
 else:
     print('Bye bye')
 print('\n')
