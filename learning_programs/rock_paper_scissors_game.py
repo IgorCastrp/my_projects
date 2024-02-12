@@ -65,7 +65,6 @@ def main():
             final_score -= 1
         else:
             total_ties += 1
-
         print(f'Total wins: {total_wins}, Total loss: {total_losses}, Total ties: {total_ties}'
               f' = Total Score: {final_score}\n')
 
