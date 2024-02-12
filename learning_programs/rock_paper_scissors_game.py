@@ -50,8 +50,8 @@ def main():
             continue
 
         if player_choice == 'quit':
-            print(f'\nI\'ve quit the game.\nTotal wins: {total_wins}, Total loss: {total_losses}, Total ties: {total_ties}'
-                  f' = Total Score: {final_score}\n')
+            print(f'\nI\'ve quit the game.\nTotal wins: {total_wins}, Total loss: {total_losses}, Total ties: '
+                  f'{total_ties} = Total Score: {final_score}\n')
             sys.exit()
 
         computer_choice = get_computer_choice()
