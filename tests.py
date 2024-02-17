@@ -1,4 +1,10 @@
-import random
+import copy
 
-for i in range(50):
-    print(random.randint(1, 10))
+spam = [1, 2, 3]
+print(id(spam))
+
+cheese = copy.copy(spam)
+cheese[0] = 392
+
+print(cheese)
+print(spam)
