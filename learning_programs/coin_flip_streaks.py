@@ -23,5 +23,5 @@ for experiment_number in range(10):
             count_t = 0
     if count_h or count_t == 6:
         number_streaks += 1
-    print(coin_flip_list)
-print(number_streaks)
+
+print(f"Chance of streak: {number_streaks / 100}%")
